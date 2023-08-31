@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Vita School</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+<!---------- Header HTML Starts --------->
+    <body>
+        <header>
+        <img src="./assets/vita logo.png" class="logo";>
+     <div class="container">
+         <nav>
+          <a class="active"; href="#">Home</a>
+          <a href="#ABOUTUS">About Us</a>
+         <a href="#CONTACTUS">Contact us</a>
+         </nav>
+     </div>
+        </header>
+            <br>
+  <!---------- Header HTML Ends --------->
+
+            <h1>
+                Hello
+            </h1>
+            <p style="font-size: 20px;"> Welcome to Vita School </p>
+            <br>
+
+    <div class="slider">
+    <img src="./assets/slider.jpg">
+    </div>
+
+    <!---------- About Us HTML Starts --------->
+
+      <div>
+        <h2 class="heading" id="ABOUTUS"> <center> ABOUT US </center></h2>
+        <h3 class="heading">Vision</h3>
+        <p> To build a shining generation that embodies the characters of Christ and lives upon the foundation of God’s Word. </p>
+        <h3 class="heading">Mission</h3>
+        <ol> 
+            <li> To cultivate Christian values in each learner and inspire them in their walk with Christ. </li>
+            <li> To encourage critical thinking as well as effectie and creative problem solving. </li>
+            <li> To foster a lifelong positive outlook in life and base their decisions upon the Word of the Lord. </li>
+        </ol>   
+      </div>
+      <br>
+      <!---------- About Us HTML Ends --------->
+
+      <!---------- Contact Us HTML Starts --------->
+
+      <div>
+        <h2 class="heading" id="CONTACTUS"> <center> CONTACT US </center></h2>  
+       </div>
+
+       <div>
+       <form>
+        <label for="name"> First Name: </label>
+        <input type="text", id="first", name="name" required> <br>
+        <label for="name"> Last Name: </label>
+        <input type="text", id="last", name="name" required> <br>
+
+        <label for="email"> Email: </label>
+        <input type="email", id="email", name="email" required> <br>
+
+        <label for="phone">Phone Number: </label>
+        <input type="number", id="number", name="phone" value="number" required>
+        <br>
+
+        <label for="message"> Message </label>
+        <textarea name="message" rows="5" cols="40"> Tulis pesan </textarea>
+        <br>
+
+        <input type="submit" id="myBtn" value="Submit">
+    
+        </form>
+     </div>
+      
+
+        <!---------- Contact Us HTML Ends --------->
+        
+
+    <script>
+        
+document.getElementById("myBtn").addEventListener("click", function() {
+  alert(`Name: ${first} ${last}`);
+});
+
+</script>
+
+        <script src="./js/script.js"></script>
+
+
+    </body>
+
+    <div class="footer">
+        Copyright &copy Vita School 
+        <br>
+        Design by Andrew Santoso
+    </div>
+
+</html>
